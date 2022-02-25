@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="cssPasta/fotter.css">
+    <link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="cssPasta/barraEstilo.css">
+    <link rel="stylesheet" href="cssPasta/body.css">
+    <script src="barra.js"></script>
+    <script type="module" src="livros.js"></script>
+    <script type="module" src="pesquisa.js"></script>
+
+    <meta name="viewport" http-equiv="Content-Security-Policy" content="child-src 'none'" charset="utf-8" content="width=device-width, initial-scale=1">
+
+
+</head>
+
+<body>
+
+
+
+
+
+    <header>
+
+        <nav class="bar">
+            <img id="iconMenu" class="iconMenu" src="img/Menu_icon.png" onclick="menuCLick()"></img>
+
+            <img src="img/logo.jpg" class="logo">
+            <ul id="responsiveBar" class="nav">
+                <li>
+                    <a class="con"><input id="pesquisar" class="pesquisar" type="text">
+                        </input>
+                    </a>
+                </li>
+                <li>
+                    <a id="BuscaLivro" class="buton" onclick="pes()">Buscar Livro <a>
+                </li>
+                <li>
+                    <a id="ContLivros" class="contador"><a>
+                </li>
+            </ul>
+        </nav>
+        
+    </header>
+
+  
+
+
+
+
+<div class="titulo">Livros Disponiveis</div>
+
+
+<div id = "biblioteca"class="image-grid">
+  
+</div>
+
+
+
+
+
+
+
+
+<nav class="Paginas">
+    <ul class="ListaDePaginas">
+        <li id ="li1"><p id ="p1" onclick="Mudarpagina(1)">1</p></li>
+        <li id ="li2"><p id ="p2" onclick="Mudarpagina(2)">2</p></li>
+        <li id ="li3"><p id ="p3"onclick="Mudarpagina(3)">3</p></li>
+    </ul>
+</nav>
+
+<div class="aux">
+<footer>
+
+
+
+
+    <span>
+                    <a href="#" class="fa fa-facebook"> </a>
+                    <a href="https://open.spotify.com/playlist/2phXuPkzMsQStkgczPH0O5?si=KgQhZJ4STj6BPflFD0khIQ&utm_source=whatsapp&nd=1" class="fa fa-spotify"> </a>
+                    <a href="mailto:ifmg.titanium@gmail.com" class="fa fa-envelope"></a>
+                    <a href="https://instagram.com/ttitaniun/ " class="fa fa-instagram"></a>
+                    </span>
+                    <div class="paragraph" style="text-align:right;">
+                        <font size="1">© COPYRIGHT 2022 ALL RIGHTS RESERVED.</font>
+                    </div>
+
+                    </footer>
+                    </div>
+</body>
+
+</html>

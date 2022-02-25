@@ -1,0 +1,44 @@
+footer {
+    margin-top: 5vh;
+    position: relative;
+    bottom: 0;
+    border-top: 2px solid;
+    border-color: #d4b400;
+    background: linear-gradient(rgb(13, 6, 37), rgb(20, 1, 80));
+    color: #FFF;
+    width: 100%;
+    height: 250px;
+    line-height: 100px;
+    text-align: center;
+}
+
+.fa {
+    padding: 20px;
+    width: 55px;
+    text-align: center;
+    margin: 40px 2px;
+}
+
+.fa-facebook {
+    border-radius: 100%;
+    background: #3B5998;
+    color: white;
+}
+
+.fa-spotify {
+    border-radius: 100%;
+    background: #00b489;
+    color: white;
+}
+
+.fa-envelope {
+    border-radius: 100%;
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    border-radius: 100%;
+    background: #9737bf;
+    color: white;
+}
